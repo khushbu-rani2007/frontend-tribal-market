@@ -15,7 +15,6 @@
 //   },
 // });
 
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -28,7 +27,8 @@ strictPort: true,
 preview: {
 host: '0.0.0.0',
 port: 4173,
-allowedHosts: ['frontend-tribal-market.onrender.com'],
+allowedHosts: ['frontend-tribal-market-1.onrender.com'],
 },
 });
+
 
